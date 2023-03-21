@@ -1,0 +1,66 @@
+body{
+  background-color: #F58E6F
+}
+p {
+    font-family: 'Righteous', cursive;
+    color:aliceblue;
+    font-size: 40px;
+  text-align: center;
+ 
+}
+
+.myDiv {
+  border: 5px outset rgb(255, 187, 187);
+  background-color: rgb(255, 128, 128);
+  text-align: center;
+}
+.arrow {
+  border: solid white;
+  border-width: 0 10px 10px 0;
+  display: inline-block;
+  padding: 10px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+.seconddiv{
+border: 5px outset rgb(21, 184, 108);
+  background-color: rgb(71, 93, 218);
+  text-align: center;
+  width: 30%;
+}
+.thirddiv{
+    border: 5px outset rgb(0, 0, 0);
+  background-color: rgb(255, 187, 187);
+}
+
+.glow {
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #9e6112, 0 0 40px #ff9751, 0 0 50px #ff9355, 0 0 60px #f19150, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+.fourdiv{
+    border: 5px outset rgb(0, 0, 0);
+  background-color: rgb(255, 187, 187);
+  float: left;
+
+}
+h1{
+     font-family: 'Righteous', cursive;
+    color:aliceblue;
+    font-size: 40px;
+}
